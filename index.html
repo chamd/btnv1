@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>버튼 키우기</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="notice_border">
+        <div class="notice">
+            <strong>
+                오토클릭(오토마우스) 사용 가능합니다!<br>
+                코드수정은 하지 말아주세요!<br>
+                그림판도 쓰지 마세요!
+            </strong>
+        </div>
+    </div>
+
+    <br>
+
+    <button id="clickbtn" onclick="clickbtn()" onmouseover="clickbtnMouse()" onmouseout="clickbtnMouseO()">
+        <p id="btnName">낡은 버튼</p>
+    </button>
+
+    <p id="click">클릭 0</p>
+
+    <button id="shopOpen" onclick="shopOpen()">
+        <p id="shopName">상점 &#9660;</p>
+    </button>
+
+    <button id="shopClose" onclick="shopClose()">
+        <p id="shopName">상점 &#9650;</p>
+    </button>
+
+    <br>
+    <br>
+
+    <button id="shop1" onclick="shop1()" onmouseover="shop1cost()" onmouseout="shop1costO()">
+        <p id="clickName">그냥<br>버튼</p>
+    </button>
+
+    <button id="shop2" onclick="shop2()" onmouseover="shop2cost()" onmouseout="shop2costO()">
+        <p id="clickName">황금<br>버튼</p>
+    </button>
+
+    <button id="shop3" onclick="shop3()" onmouseover="shop3cost()" onmouseout="shop3costO()">
+        <p id="clickName">다이아<br>버튼</p>
+    </button>
+
+    <button id="shop4" onclick="shop4()" onmouseover="shop4cost()" onmouseout="shop4costO()">
+        <p id="clickName">루비<br>버튼</p>
+    </button>
+
+    <button id="shop5" onclick="shop5()" onmouseover="shop5cost()" onmouseout="shop5costO()">
+        <p id="clickName">레전드<br>버튼</p>
+    </button>
+
+    <button id="shop1cost">
+        <p id="clickName">100 [2 클릭]</p>
+    </button>
+
+    <button id="shop2cost">
+        <p id="clickName">400 [5 클릭]</p>
+    </button>
+
+    <button id="shop3cost">
+        <p id="clickName">5000 [20 클릭]</p>
+    </button>
+
+    <button id="shop4cost">
+        <p id="clickName">300000 [100 클릭]</p>
+    </button>
+
+    <button id="shop5cost">
+        <p id="clickName">100000000 [500000 클릭]</p>
+    </button>
+
+</body>
+
+</html>

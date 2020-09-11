@@ -1,0 +1,83 @@
+body {
+    margin: 40px;
+}
+
+#clickbtn {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(150, 74, 23);
+    border: 5px solid black;
+}
+
+#click {
+    font-size: 20px;
+    text-shadow: 0.5px -0.5px black, 0.5px 0.5px black, -0.5px 0.5px black, -0.5px -0.5px black;
+}
+
+#clickName, #btnName{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px -1px black, 1px 1px black, -1px 1px black, -1px -1px black;
+}
+
+#shopName {
+    color: white;
+}
+
+#shopOpen, #shopClose{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 0px solid black
+}
+
+#shopOpen {
+    display: none;
+}
+
+#shop1, #shop2, #shop3, #shop4, #shop5 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+}
+
+#shop1 {
+    background-color: rgb(118, 255, 113);
+}
+
+#shop2 {
+    background-color: rgb(243, 255, 71);
+}
+
+#shop3 {
+    background-color: rgb(22, 220, 255);
+}
+
+#shop4 {
+    background-color: rgb(255, 22, 22);
+}
+
+#shop5 {
+    background-color: rgb(192, 98, 255);
+}
+
+#shop1cost, #shop2cost, #shop3cost, #shop4cost, #shop5cost {
+    display: none;
+    width: 523px;
+    height: ‭65px;
+    background-color: rgb(253, 255, 136);
+    border: 5px solid rgb(120, 122, 0);
+}
+
+.notice_border {
+    background-color: black;
+    border: 20px dashed yellow;
+}
+
+.notice {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1.5px -1.5px black, 1.5px 1.5px black, -1.5px 1.5px black, -1.5px -1.5px black;
+    border: 20px solid red;
+}
